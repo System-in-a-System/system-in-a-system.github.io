@@ -21,7 +21,7 @@
 title: Jekyll Playground
 email: textconstruction@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Not so awesome, but quite ok playground.
+  This Jekyll "Playground" was generated for the course in Client-based Web Programming at Linnaeus University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -31,6 +31,17 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+# Comments settings
+comments:
+  provider: disqus
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: jekyllplayground-1
+  
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
