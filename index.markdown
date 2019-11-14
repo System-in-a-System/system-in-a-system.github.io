@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+On guard of controlling blog publishing complexity since 2008...
+
