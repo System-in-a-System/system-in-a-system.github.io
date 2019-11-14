@@ -107,6 +107,7 @@
  * Site footer
  */
 .site-footer {
+  margin-top: 70px;
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
@@ -183,6 +184,14 @@
 
 .page-heading {
   @include relative-font-size(2);
+}
+
+#blog-block {
+  background-color: #fcf9ed;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: brown;
 }
 
 .post-list-heading {

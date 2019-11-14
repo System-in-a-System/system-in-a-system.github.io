@@ -59,6 +59,14 @@ img {
   vertical-align: middle;
 }
 
+.content-img {
+  max-width: 56%;
+  float: left;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 
 
 /**
@@ -129,8 +137,11 @@ a {
  * Blockquotes
  */
 blockquote {
+  margin-top: 17px;
+  margin-bottom: 100px;
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 8px solid;
+  border-color: rgb(102, 55, 21);
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
