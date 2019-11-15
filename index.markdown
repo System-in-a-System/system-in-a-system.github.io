@@ -5,5 +5,7 @@
 layout: home
 ---
 
-On guard of controlling blog publishing complexity since 2008...
+This homepage serves the front for Maryna's published assignments in the course of Client-Based Web Programming and possibly in the courses to come...
+
+
 
