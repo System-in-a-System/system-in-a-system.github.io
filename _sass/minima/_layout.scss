@@ -187,15 +187,20 @@
 }
 
 #blog-block {
+  margin-top: 100px;
   background-color: #fcf9ed;
   padding: 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: brown;
+  font-size: 10px;
+}
+
+#blog-block-img {
+  float: left;
+  width: 49%;
+  margin-right: 7px;
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.4);
 }
 
 .post-list {
@@ -214,7 +219,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.0);
 }
 
 
@@ -237,6 +242,7 @@
 }
 
 .post-content {
+  margin-top: 15px;
   margin-bottom: $spacing-unit;
 
   h2 {
