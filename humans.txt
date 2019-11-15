@@ -1,0 +1,11 @@
+/* TEAM */
+	Developer: Maryna Uchen
+	Contact: mu222ef@student.lnu.se
+	From: Sweden
+
+
+/* SITE */
+	Last update: 2019/11/17
+	Language: English
+	Static site generator: Jekyll
+	IDE: Visual Studio Code, Pixlr, Notepad, 
