@@ -8,17 +8,20 @@ layout: default
   {%- endif -%}
 
   <img src="/assets/pic/coffee_beans.jpg">
+  <br>
+  <br>
 
   {{ content }}
 
-  <blockquote>"Jekyll does what you tell it to do — no more, no less. It doesn't try to outsmart users by making bold
-    assumptions, nor does it burden them with needless complexity and configuration. Put simply, Jekyll gets out of your
-    way and allows you to concentrate on what truly matters: your content." (<a href="https://github.com/jekyll/jekyll/blob/master/README.markdown">Jekyll's "README" file</a>)</blockquote>
-
+  <blockquote>The website was generated with the help of a simple static site generator “Jekyll”.<br>
+    Jekyll. On guard of controlling blog publishing complexity since 2008…</blockquote>
+  
+  <img src="/assets/pic/blog-block-img.jpg" id="blog-block-img">
 
   {%- if site.posts.size > 0 -%}
-  <div id="blog-block"><h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-  <ul class="post-list">
+  <div id="blog-block"><h2 class="post-list-heading">Posts for assignment 1</h2>
+    
+    <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -34,8 +37,12 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
+  
+  
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p></div>
   {%- endif -%}
+
+  
 
 </div>
